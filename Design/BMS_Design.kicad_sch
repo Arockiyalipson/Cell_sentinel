@@ -1,5 +1,72 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (title_block
+    (title "Cell_Sentinel")
+    (date "2024-09-03")
+    (rev "1.0.0")
+    (company "CEET")
+  )
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 106.68 21.59) (size 39.37 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 56550ead-bddb-4188-82ba-f4a88e9dedaa)
+    (property "Sheetname" "Chg_disChg_MOSFET" (at 106.68 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Chg_disChg_MOSFET.kicad_sch" (at 106.68 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BMS_Design"
+        (path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 68.58 21.59) (size 30.48 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 5c819a5e-137e-49f9-95fb-b89a315817af)
+    (property "Sheetname" "AFE" (at 68.58 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "AFE.kicad_sch" (at 68.58 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BMS_Design"
+        (path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 29.21 21.59) (size 34.29 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid b67cc177-8839-4c40-8920-4b0cdb347174)
+    (property "Sheetname" "MCU" (at 29.21 20.8784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "MCU.kicad_sch" (at 29.21 43.7646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "BMS_Design"
+        (path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

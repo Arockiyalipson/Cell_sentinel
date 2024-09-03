@@ -1,0 +1,17 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 5a270b87-6acc-474e-a7a3-ec058934d7e4)
+
+  (paper "A4")
+
+  (title_block
+    (title "Cell_Sentinel")
+    (date "2024-09-03")
+    (rev "1.0.0")
+    (company "CEET")
+  )
+
+  (lib_symbols
+  )
+
+)
