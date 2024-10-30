@@ -11,47 +11,445 @@
 		(company "CEET")
 	)
 	(lib_symbols)
-	(sheet
-		(at 106.68 21.59)
-		(size 39.37 21.59)
-		(fields_autoplaced yes)
+	(polyline
+		(pts
+			(xy 86.36 46.99) (xy 147.32 46.99)
+		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "548559ff-1875-4333-a487-7b9b159a34e1")
+	)
+	(polyline
+		(pts
+			(xy 17.145 46.99) (xy 78.105 46.99)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "9aa3e434-f2d6-4e89-8a39-d9302f2e9caf")
+	)
+	(rectangle
+		(start 215.265 100.965)
+		(end 281.94 161.925)
+		(stroke
+			(width 0)
+			(type default)
 		)
 		(fill
-			(color 0 0 0 0.0000)
+			(type none)
 		)
-		(uuid "56550ead-bddb-4188-82ba-f4a88e9dedaa")
-		(property "Sheetname" "Chg_disChg_MOSFET"
-			(at 106.68 20.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
+		(uuid 5d8d2b7f-9029-4128-a230-95fd94bc536a)
+	)
+	(rectangle
+		(start 214.757 40.386)
+		(end 280.797 94.361)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8aacf723-798d-4e82-b5fc-3c6bd8a60cb5)
+	)
+	(text "Revision History"
+		(exclude_from_sim no)
+		(at 17.145 102.87 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#7")
+		)
+		(uuid "0a71841a-a048-49ea-9ee0-4874c93a04b6")
+	)
+	(text "Cover Page"
+		(exclude_from_sim no)
+		(at 86.36 57.15 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "10d88ee5-d4ff-4e68-b91e-97f4d4367b95")
+	)
+	(text "Random Sheet 1"
+		(exclude_from_sim no)
+		(at 17.145 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
+		(uuid "15552818-1535-4ac8-aaa1-c58fdfa22a92")
+	)
+	(text "Top Side"
+		(exclude_from_sim no)
+		(at 226.06 38.1 0)
+		(effects
+			(font
+				(face "Caladea")
+				(size 4 4)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
-		(property "Sheetfile" "Chg_disChg_MOSFET.kicad_sch"
-			(at 106.68 43.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+		(uuid "1b2cb9ee-c2f3-41ff-9cc0-aa4ae8520b6b")
+	)
+	(text "Power - Sequencing"
+		(exclude_from_sim no)
+		(at 86.36 95.25 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#6")
+		)
+		(uuid "1f8e9547-e0f9-42d6-a2fc-54077afcfb64")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 86.36 125.73 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#10")
+		)
+		(uuid "2eceb79c-3c8e-4ae3-a26f-937a89d2dd72")
+	)
+	(text "DATE : {DATE}"
+		(exclude_from_sim no)
+		(at 218.186 18.288 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3 3)
+				(thickness 0.4)
+				(bold yes)
+				(color 159 72 15 1)
 			)
 		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c"
-					(page "4")
-				)
+		(uuid "3c51a52c-256a-4519-9f87-d93176daf94e")
+	)
+	(text "Bottom Side"
+		(exclude_from_sim no)
+		(at 230.632 99.06 0)
+		(effects
+			(font
+				(face "Caladea")
+				(size 4 4)
+				(thickness 0.254)
+				(bold yes)
 			)
 		)
+		(uuid "47a9c04b-a0d6-4785-bb75-a0d21a3a63f7")
+	)
+	(text "Power - Sequencing"
+		(exclude_from_sim no)
+		(at 17.145 95.25 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#6")
+		)
+		(uuid "692cf4da-56b9-4fcd-a1cf-e2a72a81149d")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 86.36 118.11 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#9")
+		)
+		(uuid "729cda64-79d8-4db3-b373-2077a21117db")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 17.145 125.73 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#10")
+		)
+		(uuid "74d07d1a-5334-4ef0-8135-c705f42d71c8")
+	)
+	(text "Designer : {NAME}"
+		(exclude_from_sim no)
+		(at 36.576 29.718 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3 3)
+				(thickness 0.4)
+				(bold yes)
+				(color 159 72 15 1)
+			)
+		)
+		(uuid "79b73b92-d59e-40ee-9531-ee0fb5653f91")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 86.36 110.49 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#8")
+		)
+		(uuid "7c0752b6-875a-4011-8633-cace362bf1bf")
+	)
+	(text "Random Sheet 2"
+		(exclude_from_sim no)
+		(at 17.145 87.63 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#5")
+		)
+		(uuid "7ddc4893-c891-4b79-ab4a-cb5f75ad01c7")
+	)
+	(text "Project Architecture"
+		(exclude_from_sim no)
+		(at 17.145 64.77 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "8bf98714-39fa-4844-94dc-f4b0b52060d0")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 17.145 72.39 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#3")
+		)
+		(uuid "9e2fe6b7-3f1b-47dc-ba31-73aa632a5b0f")
+	)
+	(text "REV : {REV}"
+		(exclude_from_sim no)
+		(at 218.948 26.416 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 3 3)
+				(thickness 0.4)
+				(bold yes)
+				(color 159 72 15 1)
+			)
+		)
+		(uuid "a5987824-1560-409b-8cb0-82ccbd41c3e7")
+	)
+	(text "Project Architecture"
+		(exclude_from_sim no)
+		(at 86.36 64.77 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "b2e37c4c-1096-42ad-ad5a-d8d5e35e425a")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 17.145 44.45 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "b88a533b-dcd0-4c11-a734-a0d19cbf700d")
+	)
+	(text "Random Sheet 2"
+		(exclude_from_sim no)
+		(at 86.36 87.63 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#5")
+		)
+		(uuid "ba11a6be-ed5f-42de-89cf-c6f7b6d3a59d")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 86.36 72.39 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#3")
+		)
+		(uuid "c1eb5230-3b00-49a0-81ef-e38e776c152d")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 86.36 44.45 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7b730cf-6804-4854-9d82-b1d3d4d50450")
+	)
+	(text "Random Sheet 1"
+		(exclude_from_sim no)
+		(at 86.36 80.01 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
+		(uuid "d19cd6d2-82aa-40ee-8b5e-493647f88b88")
+	)
+	(text "Cover Page"
+		(exclude_from_sim no)
+		(at 17.145 57.15 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#1")
+		)
+		(uuid "d50cfcdc-4c63-461a-b6ac-c559805a0de0")
+	)
+	(text "Revision History"
+		(exclude_from_sim no)
+		(at 86.36 102.87 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#7")
+		)
+		(uuid "d5a98848-7701-482f-8016-6c2e413df2b7")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 17.145 118.11 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#9")
+		)
+		(uuid "d96d15f2-aec2-4e64-8f4e-a2afe1c2c686")
+	)
+	(text "..........................................."
+		(exclude_from_sim no)
+		(at 17.145 110.49 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#8")
+		)
+		(uuid "e4403d04-a741-4054-a912-467672c7622a")
+	)
+	(text "${BOARD_NAME}"
+		(exclude_from_sim no)
+		(at 45.974 21.082 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 0.4)
+				(bold yes)
+				(color 159 72 15 1)
+			)
+		)
+		(uuid "f4a2c2ee-e4bb-4a8c-b482-5e62dfe1d04a")
 	)
 	(sheet
-		(at 68.58 21.59)
-		(size 30.48 21.59)
+		(at 21.59 152.4)
+		(size 25.4 6.985)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -60,9 +458,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "5c819a5e-137e-49f9-95fb-b89a315817af")
-		(property "Sheetname" "AFE"
-			(at 68.58 20.8784 0)
+		(uuid "a6f6d1e1-9a1e-4a49-9157-1184d73c923a")
+		(property "Sheetname" "Project_Architecture"
+			(at 21.59 151.6884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -70,51 +468,14 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "AFE.kicad_sch"
-			(at 68.58 43.7646 0)
+		(property "Sheetfile" "Project_Architecture.kicad_sch"
+			(at 21.59 159.9696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
-			)
-		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 29.21 21.59)
-		(size 34.29 21.59)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "b67cc177-8839-4c40-8920-4b0cdb347174")
-		(property "Sheetname" "MCU"
-			(at 29.21 20.8784 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 29.21 43.7646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances

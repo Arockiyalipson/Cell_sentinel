@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MC33774ASA1AE")(type "KiCad")(uri "C:/Users/NoonRay/Documents/KiCad/8.0/projects/Cell_Sentinel/Cell_sentinel/Library/Symbols/MC33774ASA1AE.kicad_sym")(options "")(descr ""))
+  (lib (name "NXP_S32K342EHT0MPAST")(type "KiCad")(uri "C:/Users/NoonRay/Documents/KiCad/8.0/projects/Cell_Sentinel/Cell_sentinel/Library/Symbols/NXP_S32K342EHT0MPAST.kicad_sym")(options "")(descr ""))
+  (lib (name "MC33774ASA1AE_PWR")(type "KiCad")(uri "C:/Users/NoonRay/Documents/KiCad/8.0/projects/Cell_Sentinel/Cell_sentinel/Library/Symbols/MC33774ASA1AE_PWR.kicad_sym")(options "")(descr ""))
+)

@@ -529,11 +529,23 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -582,17 +594,51 @@
       "Root"
     ],
     [
-      "b67cc177-8839-4c40-8920-4b0cdb347174",
-      "MCU"
+      "a6f6d1e1-9a1e-4a49-9157-1184d73c923a",
+      "Project_Architecture"
     ],
     [
-      "5c819a5e-137e-49f9-95fb-b89a315817af",
+      "b310bec9-7987-4ce7-bdd5-f50b75ad25e6",
+      "MCU - IOs"
+    ],
+    [
+      "bd939308-044b-4693-a4fa-60bab888f8a5",
+      "Power_Conversion"
+    ],
+    [
+      "4688f63c-0420-45a5-b8b5-dab23946bf72",
+      "MCU_AFE_Power"
+    ],
+    [
+      "dd2a93e0-a961-4bb2-8ff5-6a87bcbf2a1a",
+      "MOSFET_CHG_DCHG"
+    ],
+    [
+      "7fa6ae44-528e-42f0-a759-3bdd8b7871aa",
+      "Protection_Circuits"
+    ],
+    [
+      "036bd386-5ad2-41f6-a873-824417062775",
+      "Pre-charge_Circuit"
+    ],
+    [
+      "74b0b822-3f93-490c-bbc8-547834eb32c3",
+      "Current_Sense"
+    ],
+    [
+      "3ba4dcbb-6b17-48b1-9055-15badbca1f49",
       "AFE"
     ],
     [
-      "56550ead-bddb-4188-82ba-f4a88e9dedaa",
-      "Chg_disChg_MOSFET"
+      "fc9c3072-a3aa-4da4-8e7a-b3e2cd797b1b",
+      "CELL"
+    ],
+    [
+      "e746087a-556a-4a54-bac1-2891b413254f",
+      "Communication"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "BOARD_NAME": "Cell-Sentinel"
+  }
 }

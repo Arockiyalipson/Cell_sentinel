@@ -1,0 +1,13 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d4063037-d680-4ebe-ac9b-7e4b942fb02e")
+	(paper "A4")
+	(title_block
+		(title "Cell_Sentinel")
+		(date "2024-09-03")
+		(rev "1.0.0")
+	)
+	(lib_symbols)
+)
