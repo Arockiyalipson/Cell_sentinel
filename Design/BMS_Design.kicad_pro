@@ -418,7 +418,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -594,51 +594,98 @@
       "Root"
     ],
     [
+      "086aaebc-910a-41e0-8980-70cee3d13e67",
+      "Block_Diagram"
+    ],
+    [
       "a6f6d1e1-9a1e-4a49-9157-1184d73c923a",
       "Project_Architecture"
     ],
     [
-      "b310bec9-7987-4ce7-bdd5-f50b75ad25e6",
-      "MCU - IOs"
+      "d7aa54a1-6ba1-46f5-9215-9edc1ce614b4",
+      "Power - Connectors"
     ],
     [
       "bd939308-044b-4693-a4fa-60bab888f8a5",
-      "Power_Conversion"
+      "Power - Generation"
     ],
     [
       "4688f63c-0420-45a5-b8b5-dab23946bf72",
-      "MCU_AFE_Power"
-    ],
-    [
-      "dd2a93e0-a961-4bb2-8ff5-6a87bcbf2a1a",
-      "MOSFET_CHG_DCHG"
+      "Power - MCU,AFE"
     ],
     [
       "7fa6ae44-528e-42f0-a759-3bdd8b7871aa",
-      "Protection_Circuits"
+      "Protection - Fuse"
     ],
     [
-      "036bd386-5ad2-41f6-a873-824417062775",
-      "Pre-charge_Circuit"
-    ],
-    [
-      "74b0b822-3f93-490c-bbc8-547834eb32c3",
-      "Current_Sense"
+      "b310bec9-7987-4ce7-bdd5-f50b75ad25e6",
+      "MCU - IO"
     ],
     [
       "3ba4dcbb-6b17-48b1-9055-15badbca1f49",
-      "AFE"
+      "AFE - Top level"
     ],
     [
-      "fc9c3072-a3aa-4da4-8e7a-b3e2cd797b1b",
-      "CELL"
+      "88580a8b-7bbe-4f68-8a53-b465e8ae3c1f",
+      "AFE - Cell_Input"
+    ],
+    [
+      "0bfde2ef-c8a8-4ca8-8b8f-b067e26333da",
+      "AFE - Cell Balancing"
+    ],
+    [
+      "e9678301-b11c-4ec8-96b9-98915a57482b",
+      "CHG_DCHG -Top_level"
+    ],
+    [
+      "f860da09-35f8-4783-a698-70b82be98fda",
+      "Pre-charge_Circuit"
+    ],
+    [
+      "2b4d0e3e-e42e-4b6e-ad52-a8da17b827c3",
+      "CHG_DCHG - MOSFET"
     ],
     [
       "e746087a-556a-4a54-bac1-2891b413254f",
-      "Communication"
+      "Comm - RS-485"
+    ],
+    [
+      "90525e55-fcaf-425d-b391-b530d792fec0",
+      "Comm - CAN"
+    ],
+    [
+      "74b0b822-3f93-490c-bbc8-547834eb32c3",
+      "Sensing - Current"
+    ],
+    [
+      "83a6849c-ed69-49de-b1ec-fea98db77ed0",
+      "Sensing - Temp"
+    ],
+    [
+      "fba29581-bebe-4318-ae03-35d7a1819fcd",
+      "Sensing - Hum_Press"
+    ],
+    [
+      "5299faf7-b0f6-41f0-b991-67cae605cd7d",
+      "Indication - USR"
+    ],
+    [
+      "4281b499-1139-459f-b1d7-d187b4390409",
+      "Indication - PWR"
+    ],
+    [
+      "0a1e44c7-592c-4cf9-b67d-53c08a24d756",
+      "Interface - Interconnects"
+    ],
+    [
+      "012f54e0-1e6e-48bc-b6fe-5e114016e019",
+      "Misc - Holes,Fid"
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "Cell-Sentinel"
+    "BOARD_NAME": "Cell-Sentinel",
+    "DATE": "05/11/2024",
+    "NAME": "LIPSON",
+    "REV": "1.0.0"
   }
 }

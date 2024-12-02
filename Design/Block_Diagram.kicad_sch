@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "93720f3c-9880-4db4-ba19-992826f87489")
+	(uuid "b678be35-210c-4e4d-a511-fb451429c780")
 	(paper "A4")
 	(title_block
 		(title "Cell_Sentinel")
@@ -12,7 +12,7 @@
 	(lib_symbols)
 	(text "[${#}] ${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 140.716 22.86 0)
+		(at 138.43 24.384 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -22,6 +22,6 @@
 				(color 159 72 15 1)
 			)
 		)
-		(uuid "c45448ec-c8a2-4f8d-83d3-8f4edd8f0bda")
+		(uuid "a8833a98-a903-4d01-8d12-d30db8caf3a6")
 	)
 )

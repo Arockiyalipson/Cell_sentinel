@@ -6,14 +6,14 @@
 	(paper "A4")
 	(title_block
 		(title "Cell_Sentinel")
-		(date "2024-09-03")
+		(date "2024-11-05")
 		(rev "1.0.0")
 		(company "CEET")
 	)
 	(lib_symbols)
 	(polyline
 		(pts
-			(xy 86.36 46.99) (xy 147.32 46.99)
+			(xy 96.52 48.26) (xy 157.48 48.26)
 		)
 		(stroke
 			(width 1)
@@ -24,7 +24,18 @@
 	)
 	(polyline
 		(pts
-			(xy 17.145 46.99) (xy 78.105 46.99)
+			(xy 165.1 48.26) (xy 226.06 48.26)
+		)
+		(stroke
+			(width 1)
+			(type dot)
+			(color 0 0 0 1)
+		)
+		(uuid "7fa907e5-997a-4c33-89b4-72272695f5cd")
+	)
+	(polyline
+		(pts
+			(xy 27.305 48.26) (xy 88.265 48.26)
 		)
 		(stroke
 			(width 1)
@@ -34,8 +45,8 @@
 		(uuid "9aa3e434-f2d6-4e89-8a39-d9302f2e9caf")
 	)
 	(rectangle
-		(start 215.265 100.965)
-		(end 281.94 161.925)
+		(start 16.764 147.32)
+		(end 87.884 187.96)
 		(stroke
 			(width 0)
 			(type default)
@@ -43,11 +54,11 @@
 		(fill
 			(type none)
 		)
-		(uuid 5d8d2b7f-9029-4128-a230-95fd94bc536a)
+		(uuid 86770c69-01ed-4f2c-86bd-1f85563783c4)
 	)
 	(rectangle
-		(start 214.757 40.386)
-		(end 280.797 94.361)
+		(start 176.53 152.4)
+		(end 284.48 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -55,11 +66,115 @@
 		(fill
 			(type none)
 		)
-		(uuid 8aacf723-798d-4e82-b5fc-3c6bd8a60cb5)
+		(uuid d5f9eb52-32c0-4ab6-9f84-58c28711ccd5)
 	)
-	(text "Revision History"
+	(rectangle
+		(start 99.822 148.336)
+		(end 170.942 188.976)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid e570607d-707a-473a-935c-35559d4e0b88)
+	)
+	(text_box "DESIGN NOTE:\nExample text for informational design notes."
 		(exclude_from_sim no)
-		(at 17.145 102.87 0)
+		(at 250.19 15.24 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 200 200 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 0 0 0 1)
+			)
+			(justify left top)
+		)
+		(uuid "009d8832-baf8-47b3-8c48-dddcf32fd53e")
+	)
+	(text_box "LAYOUT NOTE:\nExample text for critical layout guidelines."
+		(exclude_from_sim no)
+		(at 250.19 66.04 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 0 0 255 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 0 0 255 1)
+			)
+			(justify left top)
+		)
+		(uuid "2c0e20e5-ecfc-447b-b0c9-008f998de467")
+	)
+	(text_box "Part No: \nPut part no of the component"
+		(exclude_from_sim no)
+		(at 250.19 92.71 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1.5)
+			(type solid)
+			(color 255 163 5 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(thickness 0.4)
+				(bold yes)
+				(color 255 163 5 1)
+			)
+			(justify left top)
+		)
+		(uuid "36a5a1b7-2292-4094-b49d-d56451708962")
+	)
+	(text_box "DESCRIPTION :\nDescription about \nHow it can be used."
+		(exclude_from_sim no)
+		(at 250.19 39.37 0)
+		(size 30.48 20.32)
+		(stroke
+			(width 1)
+			(type solid)
+			(color 200 198 7 1)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(face "Arial")
+				(size 2 2)
+				(color 200 198 7 1)
+			)
+			(justify left top)
+		)
+		(uuid "d46d3193-cafe-4ff9-81a8-0d915d9ba0a5")
+	)
+	(text "MCU - IO"
+		(exclude_from_sim no)
+		(at 27.305 104.14 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -67,13 +182,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#7")
+			(href "#8")
 		)
 		(uuid "0a71841a-a048-49ea-9ee0-4874c93a04b6")
 	)
-	(text "Cover Page"
+	(text "CHG_DCHG - Top level"
 		(exclude_from_sim no)
-		(at 86.36 57.15 0)
+		(at 96.52 58.42 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -81,13 +196,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#1")
+			(href "#12")
 		)
 		(uuid "10d88ee5-d4ff-4e68-b91e-97f4d4367b95")
 	)
-	(text "Random Sheet 1"
+	(text "Power - Generation"
 		(exclude_from_sim no)
-		(at 17.145 80.01 0)
+		(at 27.305 81.28 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -95,13 +210,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#4")
+			(href "#5")
 		)
 		(uuid "15552818-1535-4ac8-aaa1-c58fdfa22a92")
 	)
 	(text "Top Side"
 		(exclude_from_sim no)
-		(at 226.06 38.1 0)
+		(at 27.94 142.24 0)
 		(effects
 			(font
 				(face "Caladea")
@@ -112,9 +227,9 @@
 		)
 		(uuid "1b2cb9ee-c2f3-41ff-9cc0-aa4ae8520b6b")
 	)
-	(text "Power - Sequencing"
+	(text "Sensing - Current"
 		(exclude_from_sim no)
-		(at 86.36 95.25 0)
+		(at 96.52 96.52 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -122,13 +237,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#6")
+			(href "#17")
 		)
 		(uuid "1f8e9547-e0f9-42d6-a2fc-54077afcfb64")
 	)
-	(text "..........................................."
+	(text "Indication - PWR"
 		(exclude_from_sim no)
-		(at 86.36 125.73 0)
+		(at 96.52 127 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -136,13 +251,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#10")
+			(href "#21")
 		)
 		(uuid "2eceb79c-3c8e-4ae3-a26f-937a89d2dd72")
 	)
-	(text "DATE : {DATE}"
+	(text "DATE : ${DATE}"
 		(exclude_from_sim no)
-		(at 218.186 18.288 0)
+		(at 157.48 18.288 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -156,7 +271,7 @@
 	)
 	(text "Bottom Side"
 		(exclude_from_sim no)
-		(at 230.632 99.06 0)
+		(at 115.57 144.78 0)
 		(effects
 			(font
 				(face "Caladea")
@@ -167,9 +282,9 @@
 		)
 		(uuid "47a9c04b-a0d6-4785-bb75-a0d21a3a63f7")
 	)
-	(text "Power - Sequencing"
+	(text "Protection - Fuse"
 		(exclude_from_sim no)
-		(at 17.145 95.25 0)
+		(at 27.305 96.52 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -177,13 +292,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#6")
+			(href "#7")
 		)
 		(uuid "692cf4da-56b9-4fcd-a1cf-e2a72a81149d")
 	)
-	(text "..........................................."
+	(text "Indication - USR"
 		(exclude_from_sim no)
-		(at 86.36 118.11 0)
+		(at 96.52 119.38 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -191,13 +306,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#9")
+			(href "#20")
 		)
 		(uuid "729cda64-79d8-4db3-b373-2077a21117db")
 	)
-	(text "..........................................."
+	(text "AFE - Cell_Balancing"
 		(exclude_from_sim no)
-		(at 17.145 125.73 0)
+		(at 27.305 127 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -205,11 +320,11 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#10")
+			(href "#11")
 		)
 		(uuid "74d07d1a-5334-4ef0-8135-c705f42d71c8")
 	)
-	(text "Designer : {NAME}"
+	(text "Designer : ${NAME}"
 		(exclude_from_sim no)
 		(at 36.576 29.718 0)
 		(effects
@@ -223,9 +338,9 @@
 		)
 		(uuid "79b73b92-d59e-40ee-9531-ee0fb5653f91")
 	)
-	(text "..........................................."
+	(text "Sensing - Hum_Press"
 		(exclude_from_sim no)
-		(at 86.36 110.49 0)
+		(at 96.52 111.76 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -233,13 +348,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#8")
+			(href "#19")
 		)
 		(uuid "7c0752b6-875a-4011-8633-cace362bf1bf")
 	)
-	(text "Random Sheet 2"
+	(text "Power - MCU,AFE"
 		(exclude_from_sim no)
-		(at 17.145 87.63 0)
+		(at 27.305 88.9 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -247,27 +362,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#5")
+			(href "#6")
 		)
 		(uuid "7ddc4893-c891-4b79-ab4a-cb5f75ad01c7")
 	)
-	(text "Project Architecture"
+	(text "Project_Architecture"
 		(exclude_from_sim no)
-		(at 17.145 64.77 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#2")
-		)
-		(uuid "8bf98714-39fa-4844-94dc-f4b0b52060d0")
-	)
-	(text "MCU"
-		(exclude_from_sim no)
-		(at 17.145 72.39 0)
+		(at 27.305 66.04 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -277,11 +378,39 @@
 			(justify left bottom)
 			(href "#3")
 		)
+		(uuid "8bf98714-39fa-4844-94dc-f4b0b52060d0")
+	)
+	(text "Index"
+		(exclude_from_sim no)
+		(at 165.1 45.72 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(bold yes)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+		)
+		(uuid "9208afda-1c8c-48ff-8d71-08080dabe0bf")
+	)
+	(text "Power - Connectors"
+		(exclude_from_sim no)
+		(at 27.305 73.66 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#4")
+		)
 		(uuid "9e2fe6b7-3f1b-47dc-ba31-73aa632a5b0f")
 	)
-	(text "REV : {REV}"
+	(text "REV : ${REV}"
 		(exclude_from_sim no)
-		(at 218.948 26.416 0)
+		(at 152.146 24.638 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -293,9 +422,9 @@
 		)
 		(uuid "a5987824-1560-409b-8cb0-82ccbd41c3e7")
 	)
-	(text "Project Architecture"
+	(text "Misc - Holes,Fid"
 		(exclude_from_sim no)
-		(at 86.36 64.77 0)
+		(at 165.1 66.04 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -303,13 +432,27 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#2")
+			(href "#23")
+		)
+		(uuid "a7aec07a-6a8d-452e-9121-0c67889288a0")
+	)
+	(text "Pre - charge_Circuit"
+		(exclude_from_sim no)
+		(at 96.52 66.04 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#13")
 		)
 		(uuid "b2e37c4c-1096-42ad-ad5a-d8d5e35e425a")
 	)
 	(text "Index"
 		(exclude_from_sim no)
-		(at 17.145 44.45 0)
+		(at 27.305 45.72 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -321,9 +464,9 @@
 		)
 		(uuid "b88a533b-dcd0-4c11-a734-a0d19cbf700d")
 	)
-	(text "Random Sheet 2"
+	(text "Comm - CAN"
 		(exclude_from_sim no)
-		(at 86.36 87.63 0)
+		(at 96.52 88.9 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -331,13 +474,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#5")
+			(href "#16")
 		)
 		(uuid "ba11a6be-ed5f-42de-89cf-c6f7b6d3a59d")
 	)
-	(text "MCU"
+	(text "CHG_DCHG - MOSFET"
 		(exclude_from_sim no)
-		(at 86.36 72.39 0)
+		(at 96.52 73.66 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -345,13 +488,13 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#3")
+			(href "#14")
 		)
 		(uuid "c1eb5230-3b00-49a0-81ef-e38e776c152d")
 	)
 	(text "Index"
 		(exclude_from_sim no)
-		(at 86.36 44.45 0)
+		(at 96.52 45.72 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -363,9 +506,9 @@
 		)
 		(uuid "c7b730cf-6804-4854-9d82-b1d3d4d50450")
 	)
-	(text "Random Sheet 1"
+	(text "Interface - Interconnects"
 		(exclude_from_sim no)
-		(at 86.36 80.01 0)
+		(at 165.1 58.42 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -373,13 +516,55 @@
 				(color 0 0 0 1)
 			)
 			(justify left bottom)
-			(href "#4")
+			(href "#22")
+		)
+		(uuid "c9822a8d-07c6-4277-b662-1a8f185ae6bd")
+	)
+	(text "Comm - RS-485"
+		(exclude_from_sim no)
+		(at 96.52 81.28 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#15")
 		)
 		(uuid "d19cd6d2-82aa-40ee-8b5e-493647f88b88")
 	)
-	(text "Cover Page"
+	(text "Block_Diagram"
 		(exclude_from_sim no)
-		(at 17.145 57.15 0)
+		(at 27.305 58.42 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#2")
+		)
+		(uuid "d50cfcdc-4c63-461a-b6ac-c559805a0de0")
+	)
+	(text "Sensing - Temp"
+		(exclude_from_sim no)
+		(at 96.52 104.14 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 4 4)
+				(color 0 0 0 1)
+			)
+			(justify left bottom)
+			(href "#")
+		)
+		(uuid "d5a98848-7701-482f-8016-6c2e413df2b7")
+	)
+	(text "AFE - Cell_Input"
+		(exclude_from_sim no)
+		(at 27.305 119.38 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -389,25 +574,11 @@
 			(justify left bottom)
 			(href "#1")
 		)
-		(uuid "d50cfcdc-4c63-461a-b6ac-c559805a0de0")
+		(uuid "d96d15f2-aec2-4e64-8f4e-a2afe1c2c686")
 	)
-	(text "Revision History"
+	(text "AFE - Top Level"
 		(exclude_from_sim no)
-		(at 86.36 102.87 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#7")
-		)
-		(uuid "d5a98848-7701-482f-8016-6c2e413df2b7")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 17.145 118.11 0)
+		(at 27.305 111.76 0)
 		(effects
 			(font
 				(face "Times New Roman")
@@ -416,20 +587,6 @@
 			)
 			(justify left bottom)
 			(href "#9")
-		)
-		(uuid "d96d15f2-aec2-4e64-8f4e-a2afe1c2c686")
-	)
-	(text "..........................................."
-		(exclude_from_sim no)
-		(at 17.145 110.49 0)
-		(effects
-			(font
-				(face "Times New Roman")
-				(size 4 4)
-				(color 0 0 0 1)
-			)
-			(justify left bottom)
-			(href "#8")
 		)
 		(uuid "e4403d04-a741-4054-a912-467672c7622a")
 	)
@@ -448,7 +605,7 @@
 		(uuid "f4a2c2ee-e4bb-4a8c-b482-5e62dfe1d04a")
 	)
 	(sheet
-		(at 21.59 152.4)
+		(at 205.74 156.21)
 		(size 25.4 6.985)
 		(fields_autoplaced yes)
 		(stroke
@@ -458,9 +615,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "a6f6d1e1-9a1e-4a49-9157-1184d73c923a")
-		(property "Sheetname" "Project_Architecture"
-			(at 21.59 151.6884 0)
+		(uuid "086aaebc-910a-41e0-8980-70cee3d13e67")
+		(property "Sheetname" "Block_Diagram"
+			(at 205.74 155.4984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -468,8 +625,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Project_Architecture.kicad_sch"
-			(at 21.59 159.9696 0)
+		(property "Sheetfile" "Block_Diagram.kicad_sch"
+			(at 205.74 163.7796 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -482,6 +639,45 @@
 			(project "BMS_Design"
 				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 179.07 156.21)
+		(size 25.4 6.985)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a6f6d1e1-9a1e-4a49-9157-1184d73c923a")
+		(property "Sheetname" "Project_Architecture"
+			(at 179.07 155.4984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Project_Architecture.kicad_sch"
+			(at 179.07 163.7796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c"
+					(page "3")
 				)
 			)
 		)

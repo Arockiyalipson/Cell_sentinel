@@ -12,16 +12,16 @@
 	(lib_symbols)
 	(text "[${#}] ${SHEETNAME}"
 		(exclude_from_sim no)
-		(at 140.716 22.86 0)
+		(at 141.986 18.288 0)
 		(effects
 			(font
 				(face "Times New Roman")
-				(size 8 8)
+				(size 6 6)
 				(thickness 1.6)
 				(bold yes)
 				(color 159 72 15 1)
 			)
 		)
-		(uuid "c45448ec-c8a2-4f8d-83d3-8f4edd8f0bda")
+		(uuid "2e73eb21-a422-46a3-a026-6968dcdc8f92")
 	)
 )

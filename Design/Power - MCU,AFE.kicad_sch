@@ -1,0 +1,364 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "d4063037-d680-4ebe-ac9b-7e4b942fb02e")
+	(paper "A4")
+	(title_block
+		(title "Cell_Sentinel")
+		(date "2024-11-05")
+		(rev "1.0.0")
+	)
+	(lib_symbols
+		(symbol "MC33774ASA1AE:MC33774AS-PWR"
+			(power)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board no)
+			(property "Reference" "U"
+				(at 12.192 21.59 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MC33774AS-PWR"
+				(at -2.54 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 2.54 11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MC33774AS-PWR_1_1"
+				(rectangle
+					(start -21.59 19.05)
+					(end 21.59 -19.05)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at -7.62 22.86 270)
+					(length 2.54)
+					(name "VBAT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -22.86 1.27 0)
+					(length 2.54)
+					(name "N.C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 22.86 270)
+					(length 2.54)
+					(name "VDDIO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "41"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 22.86 270)
+					(length 2.54)
+					(name "VDDC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "42"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -5.08 -21.59 90)
+					(length 2.54)
+					(name "VSCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "45"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at -1.27 -21.59 90)
+					(length 2.54)
+					(name "VSSD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "61"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 6.35 -21.59 90)
+					(length 2.54)
+					(name "GND_FLG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 7.62 22.86 270)
+					(length 2.54)
+					(name "VDDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "62"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -21.59 90)
+					(length 2.54)
+					(name "VSSA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "63"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -22.86 -1.27 0)
+					(length 2.54)
+					(name "N.C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "64"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(text "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 140.208 17.78 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 6 6)
+				(thickness 1.6)
+				(bold yes)
+				(color 159 72 15 1)
+			)
+		)
+		(uuid "064ed916-70f7-4ab6-929c-53e5394bd3ff")
+	)
+	(symbol
+		(lib_id "MC33774ASA1AE:MC33774AS-PWR")
+		(at 137.16 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b8f0d96e-63f2-4e5a-92d4-ef37cbe71a8f")
+		(property "Reference" "U02"
+			(at 160.02 67.9449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MC33774AS-PWR"
+			(at 160.02 70.4849 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 139.7 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "64"
+			(uuid "626665e9-aaeb-4f4c-8a3c-09efc8d36324")
+		)
+		(pin "63"
+			(uuid "fb848e19-6230-47a0-b78a-9136636cc302")
+		)
+		(pin "45"
+			(uuid "9935e6ea-8044-4c1a-974f-2c90e3250284")
+		)
+		(pin "21"
+			(uuid "40ddf4e4-d0f0-4aa9-8c6a-4457a1229e32")
+		)
+		(pin "61"
+			(uuid "ea014963-841d-4832-b62f-f3ee7fcfcb5f")
+		)
+		(pin "62"
+			(uuid "12b95cd1-612a-4ddd-9ae3-419161160554")
+		)
+		(pin "1"
+			(uuid "2e465079-2e87-4014-87d7-fa96a79011a6")
+		)
+		(pin "41"
+			(uuid "aa30cd25-e333-4f31-bc7e-3d0cca38a13a")
+		)
+		(pin "42"
+			(uuid "61371683-8fab-4e8d-8860-51c8c139143c")
+		)
+		(pin "62"
+			(uuid "2228146e-357d-4aa2-a85b-c31eef89080d")
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a/4688f63c-0420-45a5-b8b5-dab23946bf72"
+					(reference "U02")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

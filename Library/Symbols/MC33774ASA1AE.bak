@@ -8,7 +8,7 @@
 		(in_bom no)
 		(on_board no)
 		(property "Reference" "U"
-			(at 12.192 21.59 0)
+			(at 2.032 28.448 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -63,7 +63,7 @@
 				)
 			)
 			(pin power_in line
-				(at -7.62 22.86 270)
+				(at -19.05 21.59 270)
 				(length 2.54)
 				(name "VBAT"
 					(effects
@@ -81,7 +81,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -22.86 1.27 0)
+				(at -24.13 -10.16 0)
 				(length 2.54)
 				(name "N.C"
 					(effects
@@ -99,7 +99,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 22.86 270)
+				(at -13.97 21.59 270)
 				(length 2.54)
 				(name "VDDIO"
 					(effects
@@ -117,7 +117,7 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 22.86 270)
+				(at -8.89 21.59 270)
 				(length 2.54)
 				(name "VDDC"
 					(effects
@@ -127,6 +127,42 @@
 					)
 				)
 				(number "42"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 15.24 21.59 270)
+				(length 2.54)
+				(name "IMON_VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "43"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 11.43 21.59 270)
+				(length 2.54)
+				(name "DRIVE_VDDC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "44"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -145,6 +181,42 @@
 					)
 				)
 				(number "45"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 20.32 21.59 270)
+				(length 2.54)
+				(name "AINA_ALARMOUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "59"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 6.35 21.59 270)
+				(length 2.54)
+				(name "VAUX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "60"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -189,7 +261,7 @@
 				)
 			)
 			(pin power_in line
-				(at 7.62 22.86 270)
+				(at -3.81 21.59 270)
 				(length 2.54)
 				(name "VDDA"
 					(effects
@@ -225,7 +297,7 @@
 				)
 			)
 			(pin no_connect line
-				(at -22.86 -1.27 0)
+				(at -24.13 -12.7 0)
 				(length 2.54)
 				(name "N.C"
 					(effects

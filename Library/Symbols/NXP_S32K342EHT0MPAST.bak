@@ -74,7 +74,7 @@
 			)
 		)
 		(property "Footprint" "NXP_S32K342EHT0MPAST:S32K342EHT0MPAST"
-			(at 36.068 -12.7 0)
+			(at 16.51 -50.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -94,7 +94,7 @@
 			)
 		)
 		(property "Description" "ARM Cortex-M7 S32K3 Microcontroller IC 32-Bit 160MHz 2MB (2M x 8) FLASH 100-MaxQFP (10x10) "
-			(at 81.788 -19.05 0)
+			(at 111.506 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

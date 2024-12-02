@@ -6,34 +6,51 @@
 	(paper "A4")
 	(title_block
 		(title "Cell_Sentinel")
-		(date "2024-09-03")
+		(date "2024-11-05")
 		(rev "1.0.0")
 	)
 	(lib_symbols)
+	(text "[${#}] ${SHEETNAME}"
+		(exclude_from_sim no)
+		(at 133.35 23.622 0)
+		(effects
+			(font
+				(face "Times New Roman")
+				(size 8 8)
+				(thickness 1.6)
+				(bold yes)
+				(color 159 72 15 1)
+			)
+		)
+		(uuid "849217ae-aa7f-4bc4-809a-02001b69d73e")
+	)
 	(sheet
-		(at 87.63 95.25)
-		(size 22.86 12.7)
+		(at 20.32 110.49)
+		(size 27.94 15.24)
+		(fields_autoplaced yes)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
+			(color 235 255 215 1)
 		)
 		(fill
-			(color 1 0 255 0.5020)
+			(color 235 255 215 0.5000)
 		)
-		(uuid "036bd386-5ad2-41f6-a873-824417062775")
-		(property "Sheetname" "Pre-charge_Circuit"
-			(at 87.63 94.234 0)
+		(uuid "012f54e0-1e6e-48bc-b6fe-5e114016e019")
+		(property "Sheetname" "Misc - Holes,Fid"
+			(at 20.32 109.3646 0)
 			(effects
 				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.4)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Pre-charge_Circuit.kicad_sch"
-			(at 87.63 108.5346 0)
+		(property "Sheetfile" "Misc - Holes,Fid.kicad_sch"
+			(at 20.32 126.3634 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45,115 +62,79 @@
 		(instances
 			(project "BMS_Design"
 				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "8")
+					(page "23")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 152.4 68.58)
+		(at 173.99 116.84)
+		(size 22.86 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 164 0 1)
+		)
+		(fill
+			(color 255 164 0 0.5000)
+		)
+		(uuid "0a1e44c7-592c-4cf9-b67d-53c08a24d756")
+		(property "Sheetname" "Interface - Interconnects"
+			(at 173.99 115.824 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Interface - Interconnects.kicad_sch"
+			(at 173.99 130.1246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "22")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 43.18)
 		(size 22.86 30.48)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
+			(color 250 255 26 1)
 		)
 		(fill
 			(color 250 255 26 0.5000)
 		)
 		(uuid "3ba4dcbb-6b17-48b1-9055-15badbca1f49")
-		(property "Sheetname" "AFE"
-			(at 152.4 68.326 0)
+		(property "Sheetname" "AFE - Top level"
+			(at 173.736 42.164 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Arial")
+					(size 2 2)
 					(thickness 0.254)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "AFE.kicad_sch"
-			(at 152.4 81.8646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 120.65 27.94)
-		(size 27.94 12.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 0 2 0.5020)
-		)
-		(uuid "4688f63c-0420-45a5-b8b5-dab23946bf72")
-		(property "Sheetname" "MCU_AFE_Power"
-			(at 120.142 27.432 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU_AFE_Power.kicad_sch"
-			(at 120.65 41.2246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "5")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 87.63 113.03)
-		(size 22.86 12.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 0 241 0.5100)
-		)
-		(uuid "74b0b822-3f93-490c-bbc8-547834eb32c3")
-		(property "Sheetname" "Current_Sense"
-			(at 87.376 112.522 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Current_Sense.kicad_sch"
-			(at 87.63 126.3146 0)
+		(property "Sheetfile" "AFE - Top level.kicad_sch"
+			(at 171.45 56.4646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -171,151 +152,73 @@
 		)
 	)
 	(sheet
-		(at 69.85 54.61)
-		(size 25.4 12.7)
-		(fields_autoplaced yes)
+		(at 21.59 90.17)
+		(size 22.86 12.7)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
+			(color 0 229 255 1)
+		)
+		(fill
+			(color 0 229 255 0.5100)
+		)
+		(uuid "4281b499-1139-459f-b1d7-d187b4390409")
+		(property "Sheetname" "Indication - PWR"
+			(at 21.59 89.154 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Indication - PWR.kicad_sch"
+			(at 21.59 103.4546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "21")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 88.9 58.42)
+		(size 24.13 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 0 2 1)
 		)
 		(fill
 			(color 255 0 2 0.5020)
 		)
-		(uuid "7fa6ae44-528e-42f0-a759-3bdd8b7871aa")
-		(property "Sheetname" "Protection_Circuits"
-			(at 69.85 53.7834 0)
+		(uuid "4688f63c-0420-45a5-b8b5-dab23946bf72")
+		(property "Sheetname" "Power - MCU,AFE"
+			(at 88.392 57.912 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Arial")
+					(size 2 2)
 					(thickness 0.254)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Protection_Circuits.kicad_sch"
-			(at 69.85 67.8946 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "7")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 122.555 47.625)
-		(size 27.305 92.075)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 32 255 69 0.5000)
-		)
-		(uuid "b310bec9-7987-4ce7-bdd5-f50b75ad25e6")
-		(property "Sheetname" "MCU - IOs"
-			(at 125.222 47.244 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.3)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MCU.kicad_sch"
-			(at 122.555 97.7396 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "3")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 71.12 31.75)
-		(size 24.13 16.51)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 255 0 2 0.5000)
-		)
-		(uuid "bd939308-044b-4693-a4fa-60bab888f8a5")
-		(property "Sheetname" "Power_Conversion"
-			(at 71.12 30.9234 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_Conversion.kicad_sch"
-			(at 71.12 48.8446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "BMS_Design"
-				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 86.36 77.47)
-		(size 22.86 12.7)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 1 0 255 0.5000)
-		)
-		(uuid "dd2a93e0-a961-4bb2-8ff5-6a87bcbf2a1a")
-		(property "Sheetname" "MOSFET_CHG_DCHG"
-			(at 85.852 76.708 0)
-			(effects
-				(font
-					(size 1.5 1.5)
-					(thickness 0.254)
-					(bold yes)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "MOSFET_CHG_DCHG.kicad_sch"
-			(at 86.36 90.7546 0)
+		(property "Sheetfile" "Power - MCU,AFE.kicad_sch"
+			(at 88.9 71.7046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -333,29 +236,411 @@
 		)
 	)
 	(sheet
-		(at 87.63 129.54)
+		(at 173.99 134.62)
 		(size 22.86 12.7)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
+			(color 0 229 255 1)
 		)
 		(fill
 			(color 0 229 255 0.5100)
 		)
-		(uuid "e746087a-556a-4a54-bac1-2891b413254f")
-		(property "Sheetname" "Communication"
-			(at 87.63 128.524 0)
+		(uuid "5299faf7-b0f6-41f0-b991-67cae605cd7d")
+		(property "Sheetname" "Indication - USR"
+			(at 173.99 133.604 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Arial")
+					(size 2 2)
 					(thickness 0.254)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "Communication.kicad_sch"
-			(at 87.63 142.8246 0)
+		(property "Sheetfile" "Indication - USR.kicad_sch"
+			(at 173.99 147.9046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "20")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 120.65)
+		(size 22.86 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 0 241 1)
+		)
+		(fill
+			(color 255 0 241 0.5100)
+		)
+		(uuid "74b0b822-3f93-490c-bbc8-547834eb32c3")
+		(property "Sheetname" "Sensing - Current"
+			(at 96.266 120.142 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensing - Current.kicad_sch"
+			(at 96.52 133.9346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "17")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 86.36 38.1)
+		(size 25.4 12.7)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 0 2 1)
+		)
+		(fill
+			(color 255 0 2 0.5020)
+		)
+		(uuid "7fa6ae44-528e-42f0-a759-3bdd8b7871aa")
+		(property "Sheetname" "Protection - Fuse"
+			(at 86.36 37.0234 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Protection - Fuse.kicad_sch"
+			(at 86.36 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 96.52 138.43)
+		(size 22.86 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 0 241 1)
+		)
+		(fill
+			(color 255 0 241 0.5100)
+		)
+		(uuid "83a6849c-ed69-49de-b1ec-fea98db77ed0")
+		(property "Sheetname" "Sensing - Temp"
+			(at 96.266 137.922 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sensing - Temp.kicad_sch"
+			(at 96.52 151.7146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "18")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 99.06)
+		(size 22.86 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 180 255 48 1)
+		)
+		(fill
+			(color 180 255 48 0.5100)
+		)
+		(uuid "90525e55-fcaf-425d-b391-b530d792fec0")
+		(property "Sheetname" "Comm - CAN"
+			(at 172.72 98.044 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Comm - CAN.kicad_sch"
+			(at 172.72 112.3446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "16")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 130.81 42.545)
+		(size 34.29 135.255)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 32 255 69 1)
+		)
+		(fill
+			(color 32 255 69 0.5000)
+		)
+		(uuid "b310bec9-7987-4ce7-bdd5-f50b75ad25e6")
+		(property "Sheetname" "MCU - IO"
+			(at 133.477 42.164 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.3)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU - IO.kicad_sch"
+			(at 130.81 92.6596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 54.61 36.83)
+		(size 24.13 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 0 2 1)
+		)
+		(fill
+			(color 255 0 2 0.5000)
+		)
+		(uuid "bd939308-044b-4693-a4fa-60bab888f8a5")
+		(property "Sheetname" "Power - Generation"
+			(at 54.61 35.7534 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power - Generation.kicad_sch"
+			(at 54.61 53.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 22.86 38.1)
+		(size 27.94 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 255 0 2 1)
+		)
+		(fill
+			(color 255 0 2 0.5020)
+		)
+		(uuid "d7aa54a1-6ba1-46f5-9215-9edc1ce614b4")
+		(property "Sheetname" "Power - Connectors"
+			(at 22.352 37.592 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power - Connectors.kicad_sch"
+			(at 22.86 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 172.72 80.01)
+		(size 22.86 12.7)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 180 255 48 1)
+		)
+		(fill
+			(color 180 255 48 0.5100)
+		)
+		(uuid "e746087a-556a-4a54-bac1-2891b413254f")
+		(property "Sheetname" "Comm - RS-485"
+			(at 172.72 78.994 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Comm - RS-485.kicad_sch"
+			(at 172.72 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "BMS_Design"
+				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
+					(page "15")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 92.71 97.79)
+		(size 30.48 16.51)
+		(stroke
+			(width 0.25)
+			(type solid)
+			(color 137 72 255 1)
+		)
+		(fill
+			(color 1 0 255 0.5000)
+		)
+		(uuid "e9678301-b11c-4ec8-96b9-98915a57482b")
+		(property "Sheetname" "CHG_DCHG -Top_level"
+			(at 92.202 97.028 0)
+			(effects
+				(font
+					(face "Arial")
+					(size 2 2)
+					(thickness 0.254)
+					(bold yes)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MOSFET_CHG_DCHG.kicad_sch"
+			(at 92.71 111.0746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -373,29 +658,31 @@
 		)
 	)
 	(sheet
-		(at 179.07 68.58)
-		(size 22.86 30.48)
+		(at 96.52 156.21)
+		(size 24.13 12.7)
 		(stroke
-			(width 0.1524)
+			(width 0.25)
 			(type solid)
+			(color 255 0 241 1)
 		)
 		(fill
-			(color 250 255 26 0.5020)
+			(color 255 0 241 0.5100)
 		)
-		(uuid "fc9c3072-a3aa-4da4-8e7a-b3e2cd797b1b")
-		(property "Sheetname" "CELL"
-			(at 179.07 68.326 0)
+		(uuid "fba29581-bebe-4318-ae03-35d7a1819fcd")
+		(property "Sheetname" "Sensing - Hum_Press"
+			(at 96.266 155.702 0)
 			(effects
 				(font
-					(size 1.5 1.5)
+					(face "Arial")
+					(size 2 2)
 					(thickness 0.254)
 					(bold yes)
 				)
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "CELL_Input .kicad_sch"
-			(at 179.07 81.8646 0)
+		(property "Sheetfile" "Sensing - Hum_Press.kicad_sch"
+			(at 96.52 169.4946 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -407,7 +694,7 @@
 		(instances
 			(project "BMS_Design"
 				(path "/d3cbbc2c-48ef-45dd-b1b3-b57e1b62c15c/a6f6d1e1-9a1e-4a49-9157-1184d73c923a"
-					(page "11")
+					(page "19")
 				)
 			)
 		)
